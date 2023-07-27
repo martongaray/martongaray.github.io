@@ -1,0 +1,344 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<title>Polyhedron Comparison</title>
+</head><body bgcolor="#dddddd">
+<!----------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------->
+
+<br><br>
+<table bgcolor="#ffffff" cellpadding="5" width="640" align="center"><tbody><tr><td>
+
+<b>Spherical Grid Construction:</b><br>
+<br>
+To create a mostly hexagonal spherical grid, two basic starting polyhedra are considered.<br>
+<br>
+<table border="0" cellpadding="0" cellspacing="0" width="620" align="center">
+    <tbody><tr>
+        <td width="200" align="center">
+            Icosahedron:
+            <div align="center">
+                <img src="assets/Icosahedron180x180.gif" height="180" width="180">
+            </div>
+            20 triangular faces<br>
+            perfect triangles
+        </td>
+        <td valign="center" width="30" align="center">
+            and
+        </td>
+        <td width="200" align="center">
+            Pentakis-Dodecahedron:
+            <div align="center">
+                <img src="assets/PentakisDodecahedron180x180.gif" height="180" width="180">
+            </div>
+            60 triangular faces<br>
+            almost perfect triangles
+        </td>
+        <td valign="center" width="10" align="center">
+        </td>
+        <td valign="bottom" width="200" align="left">
+            <small>A Pentakis-Dodecahedron is a Dodecahedron with each pentagonal face divided into five spherical triangles.</small>
+            <div align="center">
+                <img src="assets/Dodecahedron90x90.gif" height="90" width="90">
+                <img src="assets/PentakisDodecahedronWithDodecahedronOutline90x90.gif" height="90" width="90">
+            </div>
+            <br>
+            <br>
+        </td>
+    </tr>
+</tbody></table>
+<br>
+Each triangle is recursively subdivided into four smaller triangles using a 4-fold division until
+a desired resolution is achieved.  This iterative process is best
+described in pictoral form:<br>
+<br>
+<table border="1" cellpadding="0" cellspacing="0" width="620" align="center">
+    <tbody><tr>
+        <td width="310" align="center">
+            Planar Triangles:<br>
+            <img src="assets/PlanarTriangleIterationExample300x90.gif" height="90" width="300"><br>
+            All sub-triangles have the same area.
+        </td>
+        <td width="310" align="center">
+            Spherical Triangles:<br>
+            <img src="assets/SphericalTriangleIterationExample300x90.gif" height="90" width="300"><br>
+            All sub-triangles <b>do not</b> have the same area.
+        </td>
+    </tr>
+</tbody></table>
+<br>
+To create a mostly hexagonal tessellation, vertices are converted to faces at the end of the iterative process.
+<small>(The tessellation
+will contain twelve pentagonal faces, the rest will be hexagons.)</small>
+<table width="620" align="center">
+    <tbody><tr>
+        <td width="20">
+        </td>
+        <td width="420">
+            <img src="assets/SphericalTriangleIterationEntireSphereExample420x143.gif" alt="Global Grid Construction" height="143" width="420">
+        </td>
+        <td width="180">
+            <img src="assets/HexagonalTilingIcosahedronInterationTwoWithTriangle180x180.gif" alt="Discrete Global Grid" height="180" width="180">
+        </td>
+
+    </tr>
+</tbody></table>
+<br>
+
+
+
+
+
+
+
+</td></tr></tbody></table>
+<br><br><hr><br><br>
+<table bgcolor="#ffffff" cellpadding="5" width="640" align="center"><tbody><tr><td>
+
+<b>Polyhedron Quantitative Comparison:</b><br><br>
+A comparison of the Icosahedron and the Pentakis-Dodecahedron for equal-area spherical tessellation:<br>
+<br>
+<table border="0" cellpadding="0" cellspacing="0" width="620" align="center"><tbody><tr><td>
+<table border="1" cellpadding="0" cellspacing="0" width="440" align="center">
+    <tbody><tr>
+        <td width="20" align="center">
+            N
+        </td>
+        <td width="200" align="center">
+            Icosahedron
+        </td>
+        <td width="200" align="center">
+            Pentakis-Dodecahedron
+        </td>
+    </tr>
+    <tr>
+        <td width="20" align="center">
+            0
+        </td>
+        <td width="200" align="center">
+            <table>
+                <tbody><tr>
+                    <td>
+                        <img src="assets/Icosahedron90x90.gif" height="90" width="90">
+                    </td>
+                    <td>
+                        V = 12<br>
+                        F = 20<br>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+        <td width="200" align="center">
+            <table>
+                <tbody><tr>
+                    <td>
+                        <img src="assets/Dodecahedron90x90.gif" height="90" width="90">
+                    </td>
+                    <td>
+                        V = 20<br>
+                        F = 12<br>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr>
+        <td width="20" align="center">
+            1
+        </td>
+        <td width="200" align="center">
+            <table>
+                <tbody><tr>
+                    <td>
+                        <img src="assets/IcosahedronIterationOne90x90.gif" height="90" width="90">
+                    </td>
+                    <td>
+                        V = 42<br>
+                        F = 80<br>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+        <td width="200" align="center">
+            <table>
+                <tbody><tr>
+                    <td>
+                        <img src="assets/PentakisDodecahedron90x90.gif" height="90" width="90">
+                    </td>
+                    <td>
+                        V = 32<br>
+                        F = 60<br>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr>
+        <td width="20" align="center">
+            2
+        </td>
+        <td width="200" align="center">
+            <table>
+                <tbody><tr>
+                    <td>
+                        <img src="assets/IcosahedronIterationTwo90x90.gif" height="90" width="90">
+                    </td>
+                    <td>
+                        V = 162<br>
+                        F = 320<br>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+        <td width="200" align="center">
+            <table>
+                <tbody><tr>
+                    <td>
+                        <img src="assets/PentakisDodecahedronIterationOne90x90.gif" height="90" width="90">
+                    </td>
+                    <td>
+                        V = 122<br>
+                        F = 240<br>
+                    </td>
+                </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr height="10">
+        <td valign="center" width="20" align="center">
+            <b>-</b>
+        </td>
+        <td valign="center" width="200" align="center">
+            <b>-</b>
+        </td>
+        <td valign="center" width="200" align="center">
+            <b>-</b>
+        </td>
+    </tr>
+    <tr>
+        <td width="20" align="center">
+            8
+        </td>
+        <td width="200" align="center">
+            V = 655,362<br>
+            F = 1,310,720<br>
+        </td>
+        <td width="200" align="center">
+            V = 491,522<br>
+            F = 983,040<br>
+        </td>
+    </tr>
+</tbody></table>
+
+</td>
+<td width="10"></td>
+<td valign="top" width="170">
+    <br><br><small><i>For comparison purposes a Dodecahedron is used as iteration 0 for a Pentakis-Dodecahedron</i></small>
+</td>
+</tr></tbody></table>
+
+
+<table width="580">
+    <tbody><tr>
+        <td width="20">
+
+        </td>
+        <td width="560">
+            <small>N is iteration number, V is number of vertices, F is number of triangular faces</small>
+        </td>
+    </tr>
+</tbody></table>
+
+<br>
+Eight iterations were run and the following metrics were calculated to determine which base polyhedron is more
+suitable for an equal-area tessellation:
+<br>
+<br>
+<table width="500" align="center">
+    <tbody><tr>
+        <td>
+            <img src="assets/VerticeSeperationDistanceDeviation491x283.gif" height="283" width="491"><br>
+            <small>Vertice seperation distance is the distance between neighboring vertices.  Deviation
+            is the percent difference between the closest neighboring vertice pair and the farthest neighboring
+            vertice pair across the entire sphere.</small><br><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="assets/EstimatedVerticeAreaDeviation491x283.gif" height="283" width="491"><br>
+            <small>Estimated Vertice Area is the square of a vertex's average distance to its neighbors times PI.
+            In more visual terms, estimated vertice area is the area of a circle that would best fit the vertex.
+            Deviation is the percent difference in minimum to maximum estimated vertice area across the entire
+            sphere.</small><br><br>
+        </td>
+    </tr>
+</tbody></table>
+<div align="center">
+<b>Distribution of Vertice Area Estimations:</b>
+</div>
+<table border="1" cellpadding="0" cellspacing="0" width="500" align="center">
+    <tbody><tr>
+        <td width="250" align="center">
+            Icosahedron<br>
+            <img src="assets/IcosahedronVerticeAreaEstimationSphereColorMap237x230.gif" height="230" width="237">
+        </td>
+        <td width="250" align="center">
+            Pentakis-Dodecahedron<br>
+            <img src="assets/PentakisDodecahedronVerticeAreaEstimationSphereColorMap237x2.gif" height="230" width="237">
+        </td>
+    </tr>
+</tbody></table>
+<table width="500" align="center">
+    <tbody><tr>
+        <td width="100" align="center">
+            <small>Small Area</small>
+        </td>
+        <td width="300" align="center">
+            <img src="assets/SeperationDistanceColorBarKey300x10.gif" height="10" width="300">
+        </td>
+        <td width="100" align="center">
+            <small>Large Area</small>
+        </td>
+    </tr>
+</tbody></table>
+<br><br>
+The Pentakis-Dodecahedron method was preferred because area and separation distance
+errors are minimized.
+<br><br>
+
+
+</td></tr></tbody></table>
+
+
+
+<br><br><hr><br><br>
+<table bgcolor="#ffffff" cellpadding="5" width="640" align="center"><tbody><tr><td>
+
+    <b>Path Creation:</b>
+    <br><br>
+    Path creation examples using the Pentakis-Dodecahedron method computed out to 8 iterations. (491,522 mostly hexagonal faces)
+    <br><br>
+    <table border="0" cellpadding="0" cellspacing="0" width="620" align="center">
+        <tbody><tr>
+            <td align="center">
+                <img src="assets/PathFinderAlgorithmExampleOne180x270.gif" alt="Spherical Path Creation" height="270" width="180">
+            </td>
+            <td align="center">
+                <img src="assets/PathFinderAlgorithmExampleTwo180x270.gif" height="270" width="180">
+            </td>
+            <td align="center">
+                <img src="assets/PathFinderAlgorithmExampleThree180x270.gif" height="270" width="180">
+            </td>
+        </tr>
+        </tbody></table>
+    <br>
+
+
+</td></tr></tbody></table>
+<br><br><br><br><br>
+
+
+</body></html>
