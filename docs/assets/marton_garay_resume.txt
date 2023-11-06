@@ -1,0 +1,36 @@
+Marton Garay
+Software Engineer
+Portland, OR, 512-897-9517, mail@mgaray.com
+
+-----BACKGROUND-----
+
+Experienced Engineer with a strong mathematical background. I have worked professionally with AWS cloud infrastructure for the past 8 years in design, implementation, deployment, and monitoring, supporting over 10 million customers. I have been responsible for complex algorithms in java and python using quadratic solvers, distributed systems, statistics, and AI. I work well with others, attempt to inspire, take ownership of problems, and enjoy collaborating on solutions.
+
+-----RELEVANT EXPERIENCE-----
+
+CLOUD Engineer, Cambia, Health Insurance; Portland - 2023
+* Upgrading platform for rewrite project of Java based AWS backend-services using Spring, Hibernate, Docker, and Kubernetes to a more cloud-first approach using Lambdas and Step Functions.
+
+
+SENIOR SOFTWARE Engineer, NWEA, E-LEARNING ADAPTIVE ASSESSMENT; Portland - 2012-2023
+* Undertook comprehensive overhaul of existing Java, Spring, Hibernate, Tomcat based assessment engine, boosting capacity from 50 thousand to 10 million students. Designed and implemented horizontally scalable architecture to enable 2 million transactions per minute with sub second response times and 99.9% uptime using MongoDb. Our key accomplishment, the MAP system, is now the most widely-used K-12 assessment systems in the United States.
+
+* Designed and implemented next generation assessment-engine on AWS cloud infrastructure using Java, Gateway-api, Lambdas, Dynamo, S3, SQS, Redis cache, and Terraform. Worked with multiple AWS accounts communicating with each other. Lead cross team initiatives. Worked with external stake-holders, and AWS consultants. Created architecture diagrams, promoted ideas, and helped onboard others.
+
+* Designed and implemented N-gram processing tools for language processing research. Created a distributed Python, EC2, S3 based AWS solution to process terabytes of data. Customers were internal researchers.
+
+* Actively participated in all parts of software development. From design architecture to code-reviews, cloud deployments, production monitoring, and team culture. Acted as a bridge between the software development team and the research group. Selected to participate in leadership programs.
+
+
+-----PRIOR EXPERIENCE-----
+Software Engineer,  Thetus, Ontology/Semantic Database; Portland
+Software Engineer,  Electric Bat Interactive, Web Gaming; Austin
+Research Associate,  Applied Research Laboratories, Underwater Acoustics, Austin
+
+
+-----EDUCATION-----
+The University of Texas at Austin - Electrical Engineering, Digital Image Processing
+
+
+-----SKILLS-----
+Java, Python, C, C++, AWS cloud, Lambda, Api Gateway, Docker, Kubernetes, SQS, EC2, Data Architecture, SQL, No-SQL, Graph, Dynamo, S3, Redis, Mongo, Neo4j, PostgreSQL, Hibernate, Micro Services, Distributed systems, REST API, Technical Leadership, Scrum, Kanban, Agile, Code Reviews, Git, Jira, Communication, Mentorship, Statistics, Algorithms, Architecture, Greenfield development
