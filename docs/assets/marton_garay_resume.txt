@@ -8,11 +8,11 @@ Experienced Engineer with a strong mathematical background. I have worked profes
 
 -----RELEVANT EXPERIENCE-----
 
-CLOUD Engineer, Cambia, Health Insurance; Portland - 2023
+Cloud Engineer, Cambia, Health Insurance; Portland - 2023
 * Upgrading platform for rewrite project of Java based AWS backend-services using Spring, Hibernate, Docker, and Kubernetes to a more cloud-first approach using Lambdas and Step Functions.
 
 
-SENIOR SOFTWARE Engineer, NWEA, E-LEARNING ADAPTIVE ASSESSMENT; Portland - 2012-2023
+Senior Software Engineer, NWEA, E-learning Adaptive Assessment; Portland - 2012-2023
 * Undertook comprehensive overhaul of existing Java, Spring, Hibernate, Tomcat based assessment engine, boosting capacity from 50 thousand to 10 million students. Designed and implemented horizontally scalable architecture to enable 2 million transactions per minute with sub second response times and 99.9% uptime using MongoDb. Our key accomplishment, the MAP system, is now the most widely-used K-12 assessment systems in the United States.
 
 * Designed and implemented next generation assessment-engine on AWS cloud infrastructure using Java, Gateway-api, Lambdas, Dynamo, S3, SQS, Redis cache, and Terraform. Worked with multiple AWS accounts communicating with each other. Lead cross team initiatives. Worked with external stake-holders, and AWS consultants. Created architecture diagrams, promoted ideas, and helped onboard others.
